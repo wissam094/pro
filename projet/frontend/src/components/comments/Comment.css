@@ -1,0 +1,58 @@
+.form_input {
+  margin-right: 500px;
+  width: 60%;
+}
+.form_input input {
+  width: 100%;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  padding: 5px 5px;
+  min-height: 40px;
+  outline: none;
+}
+.form_input button {
+  background: #333;
+  color: white;
+  padding: 10px 0;
+  width: 150px;
+  margin: 5px 0;
+}
+.comment_card {
+  width: 40%;
+  height: 80px;
+  border: 2px solid #ccc;
+  padding: 1px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+.comment_card_row {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 5px 0;
+  cursor: pointer;
+  color: white;
+}
+.comment_card span {
+  margin-right: 10px;
+}
+.comment_card p {
+  color: gainsboro;
+  line-height: 1.5;
+  margin: 10px 0;
+}
+.wissam {
+  margin-right: 300px;
+}
+.wissam input {
+  width: 40%;
+  height: 30px;
+}
+.wissam button {
+  background-color: grey;
+  padding: 5px;
+  margin-left: 5px;
+  position: relative;
+  top: -13px;
+}

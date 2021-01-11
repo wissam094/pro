@@ -1,0 +1,19 @@
+.p {
+  color: white;
+}
+.img {
+  margin-top: 180px;
+  margin-left: -175px;
+  text-align: center;
+  font-size: 30px;
+  background-color: none;
+  padding: 100px;
+  width: 1349px;
+}
+
+.img:hover {
+  background-color: rgb(173, 161, 161, 0.5);
+}
+.img a {
+  color: white;
+}

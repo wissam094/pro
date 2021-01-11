@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+/* reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: #2199df;
+  text-decoration: unset;
+}
+
+ul {
+  margin-left: 1.5rem;
+  list-style: none;
+}
+
+button,
+input[type="submit"] {
+  border: none;
+
+  background: none;
+  color: unset;
+  cursor: pointer;
+  outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+/* general */
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-image: url("https://www.mercedes-benz.fr/passengercars/content-pool/marketing-pool/stage-homepage/stage-homepage/_jcr_content/par/stagepushablecampaig_565259700.MQ6.12.20201221164930.jpeg");
+  background-repeat: no-repeat;
+}
+
+.page {
+  padding: 1rem;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1000px;
+  height: 100%;
+}
+
+/* header */
+
+#header {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+}
+#header .title {
+  margin: 0;
+  padding: 0 1rem;
+  color: #a09e9e;
+}
+#header .title:hover {
+  color: white;
+}
+#header .auth-options {
+  height: 100%;
+  display: flex;
+}
+#header .auth-options button {
+  padding: 0 1rem;
+  background-color: black;
+  color: #a09e9e;
+  font-size: 1.1rem;
+  border-color: white;
+}
+
+#header .auth-options button:hover {
+  color: white;
+}
+/* form */
+
+.page h2 {
+  margin-left: 600px;
+}
+
+.form label,
+.form input {
+  display: block;
+  margin-left: 600px;
+}
+.form input {
+  margin-bottom: 1rem;
+}
+.form label {
+  margin-bottom: 0.2rem;
+  color: white;
+}
+.form input[type="text"],
+.form input[type="email"],
+.form input[type="password"] {
+  width: 50%;
+  padding: 0.3rem;
+  border: 1px solid #c2c2c2;
+  border-radius: 8px;
+  background-color: #f0f0f0;
+  font-size: 1.1rem;
+}
+.form input:focus {
+  border: 1px solid #50a4e9;
+  box-shadow: inset 0px 0px 5px rgba(38, 142, 228, 0.5);
+  outline: none;
+}
+.form input[type="submit"] {
+  padding: 0.3rem 0.5rem;
+  border: 1px solid #6aa051;
+  border-radius: 8px;
+  background-color: #c8ecb7;
+  font-size: 1.1rem;
+}
+/* error notcie*/
+.error-notice {
+  margin: 1rem 37.4rem;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  border: 1px solid rgb(224, 85, 85);
+  background-color: rgb(240, 211, 211);
+  border-radius: 8px;
+}
+.error-notice button {
+  background-color: rgb(214, 99, 99);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  color: white;
+}
+.postlist {
+  margin-left: 220px;
+  margin-top: 40px;
+  font-size: 20px;
+  width: 60%;
+  box-shadow: 0 0 3px 3px #f02043;
+  padding-top: 0px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  background-color: #ffe3d6;
+  cursor: pointer;
+}
+.postlist:hover {
+  box-shadow: 0 0 5px 5px #4285f4;
+}
+
+.delete {
+  background-color: #be3737; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5%;
+  position: relative;
+  left: -150px;
+  top: 70px;
+  height: 40px;
+  width: 100px;
+}
+.ensemble {
+  display: flex;
+  justify-content: left;
+}
+.but button {
+  background-color: #be3737; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5%;
+  position: relative;
+  bottom: 220px;
+  left: 900px;
+}
+
+.article {
+  margin-left: 380px;
+  margin-top: 40px;
+  font-size: 13px;
+  width: 70%;
+  box-shadow: 0 0 3px 3px #c7bbbd;
+  padding-top: 0px;
+  background-color: #fffefd;
+  cursor: pointer;
+}
+.article:hover {
+  box-shadow: 0 0 5px 5px #aac4f1;
+}
